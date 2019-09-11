@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tiny{
+    
+    font-size: 100%;
+    font-style: italic;
+    
+}
+
+.large{
+    font-size: 300%;
+    font-style: normal;
+    
+}
