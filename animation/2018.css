@@ -1,0 +1,94 @@
+	*{ box box-sizing: border-box;}
+	body {
+		margin: 0;
+		font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'}
+		
+	.header {
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+		font-style: italic;
+		text-align: center;
+		padding: 20px;
+	}
+	.row{
+		align-content:flex-start;
+
+		
+	}
+	.column {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    
+}
+
+
+.zoom{
+	position: relative;
+	transition: transform .2s ease;
+	cursor: pointer;
+}
+
+.zoom:hover{
+	
+	transform: scale(1.75, 1.75);
+}
+
+/*
+
+
+.pictureContainer{
+	width: 350px;
+	height: 350px;
+	
+}
+*/
+/*
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+*/
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width : 1090px ){
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+	toon {
+	font-family:"Comic Sans MS";
+	font-size:20px;
+	font-style: italic;
+	
+	}
+	tiny {
+	font-family:"Comic Sans MS";
+	font-size:13px;
+	font-style: italic;
+	}
+
+/*
+a:link {
+	color:rgba(0,0,0,1);
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: rgba(0,0,0,1);
+}
+a:hover {
+	text-decoration: none;
+	color: rgba(204,204,255,1);
+}
+a:active {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+}
+a:link {
+	text-decoration: none;
+}
+*/
