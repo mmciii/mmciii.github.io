@@ -1,1 +1,1 @@
-This is my repository for the Intro to New Media class at LaGuardia Community College
+This is my repository for the Classes at LaGuardia Community College
