@@ -33,7 +33,7 @@
 	transform: scale(1.75, 1.75);
 }
 
-/*
+
 
 
 .pictureContainer{
@@ -41,8 +41,8 @@
 	height: 350px;
 	
 }
-*/
-/*
+
+
 @media screen and (max-width: 800px) {
     .column {
         -ms-flex: 50%;
@@ -50,7 +50,7 @@
         max-width: 50%;
     }
 }
-*/
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width : 1090px ){
     .column {
@@ -60,35 +60,34 @@
     }
 }
 	toon {
-	font-family:"Comic Sans MS";
-	font-size:20px;
-	font-style: italic;
+	font-family:"Arial";
+	font-size:24px;
+	font-style: bold, italic;
 	
 	}
 	tiny {
-	font-family:"Comic Sans MS";
+	font-family:"Arial";
 	font-size:13px;
 	font-style: italic;
 	}
 
-/*
+
 a:link {
-	color:rgba(0,0,0,1);
+	color:rgba(100,25,25,1);
 	text-decoration: none;
 }
 a:visited {
 	text-decoration: none;
-	color: rgba(0,0,0,1);
+	color: rgba(100,25,25,1);
 }
 a:hover {
 	text-decoration: none;
-	color: rgba(204,204,255,1);
+	color: rgba(135,255,151,1);
 }
 a:active {
 	text-decoration: none;
-	color: rgba(255,255,255,1);
+	color: rgba(255,66,66,1);
 }
 a:link {
 	text-decoration: none;
 }
-*/
